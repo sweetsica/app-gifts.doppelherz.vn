@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Form mobile</title>
+    <title>Thẻ Giftcard - Doppelherz Việt Nam</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 

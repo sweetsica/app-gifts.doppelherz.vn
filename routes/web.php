@@ -19,7 +19,7 @@ use Illuminate\Http\Request;
 
 Route::get('/', function () {
     return view('customer.index');
-});
+})->name('index');
 
 //Bắt đầu: Check qua quẹt trực tiếp
 Route::get('/vip/{token}/{code}',function ($token,$code){
@@ -55,5 +55,5 @@ Route::post('/vip',function (Request $request){
 Route::get('/welcome',[DirectController::class, 'index']);
 Route::get('logout',function (){
     Session::flush();
-    return view('customer.index');
+    return redirect()->route('index');
 })->name('logout');
