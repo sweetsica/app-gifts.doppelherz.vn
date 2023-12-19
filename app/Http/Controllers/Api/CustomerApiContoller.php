@@ -37,7 +37,8 @@ class CustomerApiContoller extends Controller
             'giftCode'=>$request->giftCode,//mã kmai
             'giftType'=>$request->giftType,//loại kmai - phần trăm, tiền
             'giftNumeric'=>$request->giftNumeric,//số kmai
-            'giftLink'=>'https://doppelherz.vn/cart/?wt_coupon='.$request->giftCode,//link kmai
+//            'giftLink'=>'https://doppelherz.vn/cart/?wt_coupon='.$request->giftCode,//link kmai
+            'giftLink' => $request->giftLink,
             'linkGen'=>URL::to('/').'/vip/2023/'.$request->giftCode,
             'phone'=>$request->phone,
             'address'=>$request->address,//địa chỉ
