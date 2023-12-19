@@ -93,10 +93,9 @@
             {{--        <H3 style="color: #ac1c1c" class="title">Mã của bạn là: {!! $datas['customerInfo']->giftCode !!}</span></H3> --}}
             <span class="text-white mt-3"><a href="https://doppelherz.vn"></a></span>
             <div class="mt-3 text-center">
-                <span><i class="bi bi-instagram mx-2" style="color: #ac1c1c"></i></span>
-                <span><i class="bi bi-instagram mx-2" style="color: #ac1c1c"></i></span>
-                <span><i class="bi bi-instagram mx-2" style="color: #ac1c1c"></i></span>
-                <span><i class="bi bi-instagram mx-2" style="color: #ac1c1c"></i></span>
+                <span><a href="https://www.facebook.com/DoppelherzVietnam"><i class="bi bi-facebook mx-2" style="color: #ac1c1c"></i></a></span>
+                <span><a href="https://www.instagram.com/doppelherz.vn/"><i class="bi bi-instagram mx-2" style="color: #ac1c1c"></i></span>
+                <span><a href="tel:18001770"><i class="bi bi-phone mx-2" style="color: #ac1c1c"></i></a></span>
             </div>
             <div class="row mt-5">
                 <div class="col-12 mb-3">
