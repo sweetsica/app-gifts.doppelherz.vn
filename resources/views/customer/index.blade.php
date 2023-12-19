@@ -74,6 +74,7 @@
         <div class="mt-5">
             <form action="{{ route('check.code') }}" method="POST"
                   class="d-flex align-items-center justify-content-center">
+                @csrf
                 <div class="input-group mb-3 w-25" style="position: relative">
                     <input type="text" class="form-control" placeholder="Vui lòng nhập mã khuyến mãi"
                            aria-label="Vui lòng nhập mã khuyến mãi" aria-describedby="button-addon2"
