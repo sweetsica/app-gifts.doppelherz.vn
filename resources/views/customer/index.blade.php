@@ -78,7 +78,7 @@
                 <div class="input-group mb-3 w-25" style="position: relative">
                     <input type="text" class="form-control" placeholder="Vui lòng nhập mã khuyến mãi"
                            aria-label="Vui lòng nhập mã khuyến mãi" aria-describedby="button-addon2"
-                           style="border-radius: 50px; padding: 30px">
+                           style="border-radius: 50px; padding: 30px" name="code">
 
                     <input type="hidden" value="2023" name="token">
                     <div class="input-group-append">
@@ -90,8 +90,8 @@
                                 padding: 12px;
                                 right: 1%;
                                 top: 10%;
-                                z-index: 99;">Truy
-                            cập</button>
+                                z-index: 99;">Truy cập</button>
+{{--                        <input type="submit" value="Truy cập">--}}
                     </div>
                 </div>
             </form>
